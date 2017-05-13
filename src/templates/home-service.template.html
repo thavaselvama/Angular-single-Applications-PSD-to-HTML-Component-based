@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="service">
+        <h2>Services</h2>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" ng-repeat="service in services">
+            <h3>{{service.title}}</h3>
+            <div class="col-md-12">
+                <div class="thumbnail">
+                    <a href="{{service.link}}">
+                        <img ng-src="{{service.serviceimg}}" alt="Description" />
+                        <div class="caption">
+                            <p>Lorem ipsum...</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>

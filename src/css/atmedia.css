@@ -1,0 +1,16 @@
+@media only screen and (max-width: 768px) {
+    .top-bar {
+        display: none;
+    }
+    .menu-top {
+        margin-top: 0px;
+        background-color: #333333;
+    }
+    #slides_control {
+        height: 261px;
+    }
+    .carousel-control.right,
+    .carousel-control.left {
+        display: none;
+    }
+}
